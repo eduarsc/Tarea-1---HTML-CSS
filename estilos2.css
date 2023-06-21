@@ -1,0 +1,49 @@
+/* Estilos para los posters */
+#posters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px;
+  }
+
+  #posters div {
+    width: 300px;
+    margin-bottom: 20px;    
+    /* padding: 10px; */
+    text-align: center;
+  }
+  
+  #posters div img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+
+  #posters div p {
+    opacity: 0;
+    transition: opacity 0.3s ease;    
+  }
+    
+  
+  #posters div {
+    transition: transform 0.3s ease, opacity 0.1s ease;
+  }
+  
+  #posters div:hover {    
+    transform: scale(1.35);
+  }
+  
+  #posters div:hover p {
+    visibility: visible;
+    position: absolute;
+    top: 12%;
+    left:8%;
+    background-color: rgba(252, 252, 252, 0.671);
+    font-size: .8rem;
+    text-align: left;
+    width: 80%;
+    border: solid rgba(0, 0, 0, 0.514) 2px;
+    padding: 5px;    
+    opacity: 1;
+  }

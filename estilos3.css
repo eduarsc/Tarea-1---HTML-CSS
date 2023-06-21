@@ -1,0 +1,29 @@
+/* medias querys*/  
+  @media (max-width: 500px) {    
+    h3 {
+        text-align: center;
+        margin-top: 5%;
+    }
+    
+    .peliculas ol {
+      padding-left: 5%;      
+    }
+
+    #posters div {
+      width: 25rem;
+      height: 50rem;
+      margin-top: 10px;
+      overflow: visible;
+      margin-top: 5%;
+    }
+    
+    #posters div:hover {        
+        transform: scale(1.12);
+      }
+
+    body {
+        background-size: contain;
+        background-repeat: repeat-y;    
+    }
+  }
+  

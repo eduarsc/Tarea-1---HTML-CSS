@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://media.istockphoto.com/id/1058727850/es/vector/resumen-antecedentes-brillantes-con-tiras-de-pel%C3%ADcula-en-blanco-y-copia-espacio.jpg?b=1&s=612x612&w=0&k=20&c=yUva9d5T71jNUs9g-mVdYxjxR0pQBZS0VIU8sEnOz4w=")no-repeat;
+    background-size: cover;    
+  }
+
+  /* Estilos para la sección de películas */
+  .intro,
+  .peliculas {
+    margin: 20px;
+    color: black;
+    background-color: rgba(240, 255, 255, 0.459);
+    width: 16%;
+  }
+  h3 {
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: underline;
+  }
+  .peliculas ol {
+    padding-left: 20px;
+  }
+  
+  p {
+    visibility: collapse;
+  }
+  .intro > p {
+    visibility: visible;    
+  }
